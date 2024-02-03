@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-social-media-microservices-common",
+  "version": "1.0.4",
+  "description": "Common of social media backend",
+  "main": "index.js",
+  "scripts": {
+    "pub": "npm version patch && npm publish"
+  },
+  "keywords": [],
+  "author": "davischilling.dev@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "micromq": "^3.0.2",
+    "moment": "^2.30.1",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.1",
+    "pino": "^8.18.0",
+    "pino-pretty": "^10.3.1",
+    "redis": "^4.6.12"
+  }
+}
