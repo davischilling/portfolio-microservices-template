@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-social-media-microservices-example",
+  "version": "1.0.0",
+  "description": "example of social media backend",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "nodemon --ignore package-lock.json SERVICE-NAME.js",
+    "start-prod": "pm2-runtime SERVICE-NAME.js",
+    "common-update": "portfolio-social-media-microservices-common",
+    "cache-clear": "npm cache clean --force",
+    "pm2-restart": "pm2 restart all",
+    "pm2-flush": "pm2 flush"
+  },
+  "keywords": [],
+  "author": "davischilling.dev@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "portfolio-social-media-microservices-common": "*"
+  }
+}
